@@ -17,7 +17,6 @@ API_KEY = "Your API Key Goes Here. Leave the quotes."
 virusTotal = VirusTotalPublicApi(API_KEY)
 
 
-
 print("")
 print("    ´´´´´´´¶¶¶¶´´´´´´´´´´´´´´´´´´ ")
 print("    ´´´´´´¶¶´´´´¶¶¶¶¶´´¶¶¶¶´¶¶¶¶´´")
@@ -53,10 +52,6 @@ print("| |_/ /   _ ___| |__   ___ _ __   ")
 print("|  __/ | | / __| '_ \ / _ \ '__|  ")
 print("| |  | |_| \__ \ | | |  __/ |     ")
 print("\_|   \__,_|___/_| |_|\___|_|     ")
-
-
-
-
 
 
 # print space
@@ -113,3 +108,5 @@ for file in files:
 
             # sleep for 16 seconds to rate-limit (< 4 requests per minute)
             time.sleep(16)
+
+            
